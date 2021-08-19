@@ -5,7 +5,10 @@ import "./footer.scss";
 const Footer = () => {
   return (
     <div className='footer-container'>
-      Copyright &copy; {new Date().getFullYear()} Zoey
+      <div className='footer-top'></div>
+      <div className='footer-bottom'>
+        Copyright &copy; {new Date().getFullYear()} Zoey
+      </div>
     </div>
   );
 };

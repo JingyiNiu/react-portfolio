@@ -23,7 +23,7 @@ const ProjectPreview = () => {
         <span className='pp-key'>axios</span>
         <span className='pp-key'>material-ui</span>
       </div>
-      <button className='button'>View Project</button>
+      <button className='button button-primary'>View Project</button>
     </div>
   );
 };

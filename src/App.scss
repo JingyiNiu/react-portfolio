@@ -25,3 +25,11 @@ $color4: #464660;
   font-size: 15px;
   font-family: inherit;
 }
+
+.button-primary {
+  background-color: $color1;
+  color: #fff;
+  &:hover {
+    background-color: $color2;
+  }
+}
