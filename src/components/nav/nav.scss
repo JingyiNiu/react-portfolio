@@ -1,8 +1,10 @@
+@import "../../App.scss";
+
 .nav-container {
-  border: 1px solid lightslategray;
+  background-color: $color1;
   display: flex;
   justify-content: space-between;
-  margin: 10px 20px;
+  padding: 10px 20px;
 }
 
 .nav-left,
@@ -14,15 +16,16 @@
 
 .nav-item,
 .nav-link {
+  color: #fff;
   margin: 0 20px;
   text-decoration: none;
   cursor: pointer;
 }
 
 .nav-item:hover {
-  font-weight: 600;
+  color: $color2;
 }
 
 .nav-link:hover {
-  border-bottom: 3px solid #000;
+  border-bottom: 3px solid $color2;
 }
