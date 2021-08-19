@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
-import "./top.scss";
+import "./back-to-top.scss";
 
-const Top = () => {
+const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
@@ -35,4 +35,4 @@ const Top = () => {
   );
 };
 
-export default Top;
+export default BackToTop;

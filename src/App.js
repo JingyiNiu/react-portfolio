@@ -8,14 +8,14 @@ import About from "./pages/about/about";
 import Projects from "./pages/projects/projects";
 import Contact from "./pages/contact/contact";
 
-import Top from "./components/top/top";
+import BackToTop from "./components/back-to-top/back-to-top";
 
 import "./App.scss";
 
 function App() {
   return (
     <Router>
-      <Top />
+      <BackToTop />
       <Nav />
       <Switch>
         <Route path='/' exact component={Home} />
