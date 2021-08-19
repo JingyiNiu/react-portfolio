@@ -1,7 +1,6 @@
-$color1: #87a8a4;
-$color2: #c1cfc0;
-$color3: #5c527f;
-$color4: #464660;
+$color1: #8fc1d4;
+$color2: #f9ed69;
+$color3: #00adb5;
 
 .main-container {
   padding: 20px 20px 150px;
@@ -30,6 +29,6 @@ $color4: #464660;
   background-color: $color1;
   color: #fff;
   &:hover {
-    background-color: $color2;
+    background-color: $color3;
   }
 }

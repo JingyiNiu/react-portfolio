@@ -11,7 +11,7 @@
   align-items: center;
 
   &:hover {
-    box-shadow: 0 4px 2px 3px rgb(216, 216, 216);
+    box-shadow: 0 4px 4px 3px rgb(216, 216, 216);
   }
 }
 
@@ -43,7 +43,7 @@
     color: $color1;
     cursor: pointer;
     &:hover {
-      color: $color2;
+      color: $color3;
     }
   }
 }
