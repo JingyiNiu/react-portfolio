@@ -14,11 +14,14 @@ const ProjectPreview = () => {
       <div className='pp-title'>Project Name</div>
       <div className='pp-details'>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab repellat
-        voluptates, consequatur voluptatum provident debitis harum, iste quam
-        rem delectus voluptatibus neque, nobis sapiente velit impedit
-        cupiditate. Facilis consequuntur magnam rem commodi aliquid est ex esse,
-        olorem quasi ducimus provident possimus nemo molestias quia commodi,
-        labore blanditiis. Voluptatem, quam corporis!
+        voluptates, consequatur voluptatum provident uptati debitis harum, iste
+        quam rem delectus voluptatibus neque...
+      </div>
+      <div className='pp-keys'>
+        Key Skills:
+        <span className='pp-key'>react</span>
+        <span className='pp-key'>axios</span>
+        <span className='pp-key'>material-ui</span>
       </div>
       <button className='button'>View Project</button>
     </div>

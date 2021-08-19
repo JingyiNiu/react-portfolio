@@ -7,6 +7,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &:hover {
+    box-shadow: 0 8px 2px 2px rgba(0, 0, 255, 0.2);
+  }
 }
 
 .pp-image {
@@ -25,5 +29,19 @@
 
 .pp-details {
   text-align: center;
+  margin-bottom: 10px;
+}
+
+.pp-keys {
   margin-bottom: 20px;
+
+  .pp-key {
+    margin-left: 8px;
+    font-weight: 600;
+    color: lightseagreen;
+    cursor: pointer;
+    &:hover {
+      color: #999;
+    }
+  }
 }

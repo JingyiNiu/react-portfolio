@@ -8,11 +8,14 @@ import About from "./pages/about/about";
 import Projects from "./pages/projects/projects";
 import Contact from "./pages/contact/contact";
 
+import Top from "./components/top/top";
+
 import "./App.scss";
 
 function App() {
   return (
     <Router>
+      <Top />
       <Nav />
       <Switch>
         <Route path='/' exact component={Home} />
