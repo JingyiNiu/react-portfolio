@@ -6,8 +6,14 @@ import "./projects.scss";
 const Projects = () => {
   return (
     <div className='main-container'>
-      <h1>My Projects</h1>
-      <ProjectPreview />
+      <div className='page-title'>My Projects</div>
+      <div className='project-grid'>
+        <ProjectPreview />
+        <ProjectPreview />
+        <ProjectPreview />
+        <ProjectPreview />
+        <ProjectPreview />
+      </div>
     </div>
   );
 };
