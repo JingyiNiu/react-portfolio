@@ -1,10 +1,10 @@
-@import "../../App.scss";
+import styled from "styled-components";
 
-.top-container {
+export const BackToTopContainer = styled.div`
   width: 50px;
   height: 50px;
   color: #fff;
-  background-color: $color1;
+  background-color: #000;
   position: fixed;
   bottom: 100px;
   right: 20px;
@@ -15,6 +15,7 @@
   z-index: 1000;
 
   &:hover {
-    background-color: $color2;
+    background-color: #fff;
+    color: #000;
   }
-}
+`;

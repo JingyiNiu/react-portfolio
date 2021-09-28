@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import "./back-to-top.scss";
+import { BackToTopContainer } from "./back-to-top.styles";
 
 const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -25,13 +25,11 @@ const BackToTop = () => {
   };
 
   return (
-    <div>
+    <>
       {isVisible && (
-        <div className='top-container' onClick={backToTop}>
-          TOP
-        </div>
+        <BackToTopContainer onClick={backToTop}>TOP</BackToTopContainer>
       )}
-    </div>
+    </>
   );
 };
 

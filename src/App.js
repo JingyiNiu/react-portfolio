@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Nav from "./components/nav/nav";
+import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 
 import Home from "./pages/home/home";
@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <BackToTop />
-      <Nav />
+      <Header />
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/about' exact component={About} />
