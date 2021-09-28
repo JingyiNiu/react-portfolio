@@ -12,3 +12,7 @@ https://reactrouter.com/core/guides/quick-start
 ## node-sass
 https://www.npmjs.com/package/node-sass   
 ```npm i node-sass```
+
+## styled-components
+https://styled-components.com/docs/basics#getting-started   
+```npm i styled-components```
