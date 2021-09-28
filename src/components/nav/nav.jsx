@@ -1,14 +1,17 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import "./nav.scss";
 
 const Nav = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
     <div className='nav-container'>
       <div className='nav-left'>
         <Link to='/' className='nav-item'>
-          LOGO
+          Jingyi's Portfolio
         </Link>
       </div>
       <div className='nav-right'>
