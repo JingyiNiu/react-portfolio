@@ -1,5 +1,5 @@
 # React Portfolio
-This is an ongoing react project. I'm building a portfolio to introduce myself using this project.   
+This is an ongoing project. I'm building a portfolio to introduce myself with react.   
 
 ## create React App
 https://create-react-app.dev/docs/getting-started   
