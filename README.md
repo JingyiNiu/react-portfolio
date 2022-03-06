@@ -1,7 +1,7 @@
 # React Portfolio
 This is an ongoing project. I'm building a portfolio to introduce myself with react.   
 
-## create React App
+## create react app
 https://create-react-app.dev/docs/getting-started   
 ```npx create-react-app react-portfolio```
 
@@ -16,3 +16,5 @@ https://www.npmjs.com/package/node-sass
 ## styled-components
 https://styled-components.com/docs/basics#getting-started   
 ```npm i styled-components```
+ 
+ 
