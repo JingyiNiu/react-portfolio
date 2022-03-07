@@ -3,7 +3,11 @@ import React from "react";
 import "./about.scss";
 
 const About = () => {
-  return <>about</>;
+  return (
+    <section id="about">
+      <div className="title">About</div>
+    </section>
+  );
 };
 
 export default About;

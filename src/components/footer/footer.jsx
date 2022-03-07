@@ -1,15 +1,16 @@
 import React from "react";
+import "./footer.scss"
 
-import { FooterContainer } from "./footer.styles";
 import SocialMedias from "../social-medias/social-medias";
 
 const Footer = () => {
   return (
-    <FooterContainer>
-      <div>Made By Jingyi</div>
-      <div>Copyright &copy; {new Date().getFullYear()}</div>
-      <SocialMedias />
-    </FooterContainer>
+    <footer>
+      <div className="container d-flex">
+        madeby jingyi copyright
+        <SocialMedias />
+      </div>
+    </footer>
   );
 };
 
