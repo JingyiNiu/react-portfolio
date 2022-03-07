@@ -15,10 +15,10 @@ const Header = () => {
       <LogoLink to='/'>Jingyi's Portfolio</LogoLink>
 
       <HeaderRightContainer>
-        <HeaderLink to='/'>Home</HeaderLink>
-        <HeaderLink to='/about'>About</HeaderLink>
-        <HeaderLink to='/projects'>Projects</HeaderLink>
-        <HeaderLink to='/contact'>Contact</HeaderLink>
+        <HeaderLink to='#'>Home</HeaderLink>
+        <HeaderLink to='#about'>About</HeaderLink>
+        <HeaderLink to='#projects'>Projects</HeaderLink>
+        <HeaderLink to='#contact'>Contact</HeaderLink>
       </HeaderRightContainer>
     </HeaderContainer>
   );
